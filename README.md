@@ -10,6 +10,8 @@
 
 ## Results
 (fill in what you discovered this data could tell you and how you used the data to answer those questions)
+alot of missing data, so I had to use what was available based on PK's such as fvid (fullvisitorid) I shortened it to the first 6 digits.
+
 
 ## Challenges 
 Alot of missing values in columns, not every visitor made a purchase. using fvid and productsku's really helped with that.
