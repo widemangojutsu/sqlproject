@@ -1,0 +1,207 @@
+city,country,avg
+Kharagpur,India,6
+Stanford,United States,3
+Mexico City,Mexico,22.63636364
+Poznan,Poland,4
+Rome,Italy,130.3333333
+Colombo,Sri Lanka,5.25
+Prague,Czechia,20
+Doha,Qatar,4
+Longtan District,Taiwan,97
+San Bruno,United States,44.82352941
+Cupertino,United States,27
+Los Angeles,United States,32.59821429
+Washington,United States,17.94736842
+Stockholm,Sweden,11.71428571
+Bangkok,Thailand,45.5625
+Kalamazoo,United States,105
+Greer,United States,1
+Boston,United States,55.18181818
+Dublin,Ireland,39.85714286
+Santa Fe,Argentina,60
+Santiago,Chile,20.75
+Sacramento,United States,189
+Bogota,Colombia,27.81818182
+Detroit,United States,12.33333333
+Milpitas,United States,6
+Sao Paulo,Brazil,23.6
+Eau Claire,United States,4.714285714
+Richardson,United States,4
+Izmir,Turkey,3.5
+Bellflower,United States,30
+Riyadh,Saudi Arabia,319
+Kharkiv,Ukraine,4
+Nanded,India,6
+Frankfurt,Germany,7
+Moscow,Russia,13.14285714
+Cork,Ireland,30
+Jersey City,United States,4
+Singapore,Singapore,17.83333333
+Melbourne,Australia,26.51724138
+Patna,India,2
+LaFayette,United States,13
+Wrexham,United Kingdom,13
+Zurich,Switzerland,16.41666667
+Las Vegas,United States,4
+Ann Arbor,United States,29.65217391
+Nashville,United States,94
+Mountain View,Australia,1
+Portland,United States,9.5
+Hong Kong,Hong Kong,43.19354839
+Vladivostok,Russia,62
+Bucharest,Romania,17.83333333
+Quezon City,Philippines,6.5
+La Victoria,Peru,20
+Singapore,France,1
+Salford,United Kingdom,2
+Dubai,United Arab Emirates,111.5
+Calgary,Canada,39
+Chicago,United States,30.05434783
+Wellesley,United States,3
+Mississauga,Canada,24.66666667
+Montreal,Canada,16.08333333
+Bandung,Indonesia,6
+Chennai,India,21.78787879
+Rio de Janeiro,Brazil,65.33333333
+Madison,United States,3
+Jacksonville,United States,5
+Istanbul,Hungary,11
+Shinjuku,Japan,73
+Chico,United States,2
+Helsinki,Finland,6
+Taguig,Philippines,14.5
+New York,United States,25.77955272
+Norfolk,United States,3
+Seattle,United States,31.91304348
+Timisoara,Romania,8
+Mumbai,India,34.5
+Adelaide,Australia,3
+Brussels,Belgium,4
+Dallas,United States,14.33333333
+Barcelona,Spain,17.15384615
+Oakland,United States,27.75
+Budapest,Hungary,21
+Avon,United States,100
+Pittsburgh,United States,26.66666667
+Pune,India,85.3
+Warsaw,Poland,20
+Thessaloniki,Greece,7
+London,United Kingdom,23.37634409
+St. Louis,United States,7
+Dublin,Netherlands,12
+Athens,Greece,68.33333333
+Ashburn,United States,4
+Kitchener,Canada,31.33333333
+Phoenix,United States,40.25
+Istanbul,Turkey,13.36363636
+Burnaby,Canada,9.5
+Saint Petersburg,Russia,135
+Mountain View,Japan,7
+Vilnius,Lithuania,1
+New York,Canada,3
+Brno,Czechia,319
+Sherbrooke,Canada,145.5
+Austin,United States,28.86206897
+Munich,Germany,44.33333333
+Columbia,United States,5
+Pozuelo de Alarcon,Spain,34.33333333
+Salem,United States,56.68181818
+Mountain View,United States,30.76507937
+Brisbane,Australia,3.5
+Oviedo,United States,6.5
+Antwerp,Belgium,3
+Council Bluffs,United States,3
+Denver,United States,6.4
+Buenos Aires,Argentina,29.66666667
+San Diego,United States,14.3
+Asuncion,Paraguay,13
+Culiacan,Mexico,8
+Copenhagen,Denmark,16
+Santa Monica,United States,13
+Ipoh,Malaysia,11
+Druid Hills,United States,3
+Charlotte,United States,29.55555556
+Toronto,Canada,35.01666667
+Amsterdam,Netherlands,28.42857143
+Jaipur,India,11
+Rexburg,United States,250.5
+Hanoi,Vietnam,37.66666667
+Marseille,France,4
+Tel Aviv-Yafo,Israel,40
+Villeneuve-d'Ascq,France,1
+San Jose,United States,26.47154472
+San Mateo,United States,11
+Kuala Lumpur,Malaysia,22.71428571
+The Dalles,United States,13
+Petaling Jaya,Malaysia,3
+Oslo,Norway,1
+University Park,United States,5
+Redmond,United States,29.5
+Tempe,United States,6
+Philadelphia,United States,39.88888889
+Irvine,United States,34.36363636
+Hyderabad,India,22.72727273
+Sydney,Australia,26.2
+Quebec City,Canada,14
+Iasi,Romania,2
+Bengaluru,India,12.825
+Bellingham,United States,62
+Houston,United States,24.39285714
+Indore,India,44
+Madrid,Spain,29.5
+Kirkland,United States,13.7
+San Antonio,United States,58.16666667
+Kolkata,India,20.66666667
+Boulder,United States,5.333333333
+Hong Kong,United States,11
+Milan,Italy,29.33333333
+Manila,Philippines,10.5
+Ahmedabad,India,18
+Perth,Australia,14
+Jakarta,Indonesia,15.6
+Vienna,Austria,6.333333333
+Zhongli District,Taiwan,46
+Fremont,United States,7.9
+Rosario,Argentina,1
+Sunnyvale,United States,24.57754011
+Montreuil,France,23
+Palo Alto,United States,60.44067797
+Courbevoie,France,15
+Chandigarh,India,13
+San Francisco,United States,28.23333333
+Yokohama,Japan,9.666666667
+Kansas City,United States,1
+Kiev,Ukraine,12.15384615
+Zagreb,Croatia,3
+Akron,United States,13
+Edmonton,Canada,2
+East Lansing,United States,7
+Lake Oswego,United States,20
+Belo Horizonte,Brazil,43
+Vancouver,Canada,21
+Montevideo,Uruguay,15
+Lahore,Pakistan,1
+Piscataway Township,United States,1
+New Delhi,India,19.3125
+Medellin,Colombia,7
+Osaka,Japan,11.6
+Berlin,Germany,18.42857143
+Santa Clara,United States,49
+Cambridge,United States,16.09090909
+Paris,France,17.91666667
+Westville,South Africa,70
+Orlando,United States,4.5
+Ho Chi Minh City,Vietnam,20.125
+Atlanta,United States,12.72727273
+Los Angeles,Australia,3
+Redwood City,United States,35.66666667
+Seoul,South Korea,75.38461538
+Maracaibo,Venezuela,1.5
+Hamburg,Germany,39.14285714
+Menlo Park,United States,51.5
+South San Francisco,United States,8.666666667
+Cluj-Napoca,Romania,4
+Minato,Japan,15.89473684
+Lisbon,Portugal,189
+Ghent,Belgium,16
+Gurgaon,India,11.83333333
