@@ -7,6 +7,9 @@ get distinct fullvisitorid's, and productsku to join other columns/tables
 
 
 ## Process
+- getting over view of the dataset, and identify important distinct values
+- cleaning data and transforming to verified data
+- 
 ### Analyze the data in raw form
 - identifying primary key to join tables ( using productsku and fullvisiotorid )
 Clean data by removing null values or (not set)
