@@ -1,16 +1,20 @@
 # Final-Project-Transforming-and-Analyzing-Data-with-SQL
 
 ## Project/Goals
-(fill in your description and goals here)
+get distinct fullvisitorid's, and productsku to join other columns/tables
+-created views with clean filtered data
+
+
 
 ## Process
-### Created alot of view tables, used them to isolate the extact column I would need
-### Shortening the fvid (fullvisitorid) Looks nicer when there is not 0000000 or other numbers involved. the first 6 is the "unique" identifier.
-### using fvid and productsku's as PK to join the views
+### Analyze the data in raw form
+- identifying primary key to join tables ( using productsku and fullvisiotorid )
+Clean data by removing null values or (not set)
+- using where clause to filter values like (not set) or null
 
 ## Results
 (fill in what you discovered this data could tell you and how you used the data to answer those questions)
-alot of missing data, so I had to use what was available based on PK's such as fvid (fullvisitorid) I shortened it to the first 6 digits.
+Using null values and joins can filter out missing data and return non null values
 
 
 ## Challenges 
@@ -22,11 +26,6 @@ If I had more time, id like to include question 4 with a excel distribution char
 I think it be a nice visual representation.
 Also a distribution chart with country and units_sold
 
-CLEAN MORE OF IT.
-
-More answers to questions such as
-avg time spent before purchase
-conversion % (total visitors to site that ended up purchasing)
 
 
 
