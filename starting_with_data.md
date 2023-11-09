@@ -1,14 +1,14 @@
-Question 1: How could you update unit_price to show the correct revenue?
+##Question 1: How could you update unit_price to show the correct revenue?
 
 
 
-Answer: select unit_price, (revenue/1000000) as updatedrevenue, (select left(cast(fullvisitorid as varchar), 6) as fvid)
+##Answer: select unit_price, (revenue/1000000) as updatedrevenue, (select left(cast(fullvisitorid as varchar), 6) as fvid)
 	from analytics
 	where revenue is not null
 
 
 
-Question 2: top 3 time spent on site by visitorid
+##Question 2: top 3 time spent on site by visitorid
 
 SQL Queries:
 
@@ -18,13 +18,13 @@ where timeonsite is not null
 group by visitid, timeonsite
 order by timeonsite desc
 
-Answer:
+##Answer:
 1479144257	"01:17:41"
 1493327095	"01:05:37"
 1482431484	"01:03:42"
 
 
-Question 3: Using views created how many distinct city and country total revenue of city and country
+##Question 3: Using views created how many distinct city and country total revenue of city and country
 
 
 SQL Queries:
@@ -37,10 +37,10 @@ select city, country, sum((unit_price * total_ordered)) as totrev
 	group by skc.city, skc.country
 
 
-Answer:23
+##Answer:23
 
 
-Question 4: show distinct category order counts
+##Question 4: show distinct category order counts
 
 SQL Querie
 
@@ -58,5 +58,7 @@ select v2productcategory, country, city, count(v2productcategory) as cit
 order by cit desc
 )
 order by cit desc
-Answer: 1816
+
+
+##Answer: 1816
 
