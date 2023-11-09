@@ -5,6 +5,7 @@ Answer the following questions and provide the SQL queries used to find the answ
 
 
 SQL Queries:
+###
 with highestrev as
 (select distinct country, sum(totaltransactionrevenue) as ttr, city from all_sessions
  where totaltransactionrevenue is not null
@@ -12,6 +13,7 @@ with highestrev as
 )
 select max(ttr), country, city
 from highestrev
+where city not like 'not av%'
 
 group by highestrev.country, highestrev.city
 
@@ -19,29 +21,14 @@ group by highestrev.country, highestrev.city
 Answer:
 United States, San francisco 
 
-
+###
 
 **Question 2: What is the average number of products ordered from visitors in each city and country?**
-need to find distinct city and country
 
 
 SQL Queries:
--- to find distinct fvID, noticed city has (not set), created as view skcc
 
-select city, country, (select left(cast(fullvisitorid as varchar), 6) as fvid), productsku
-from all_sessions
-where city not like 'not available%'
-and country not like 'not available%'
-and city not like '(not%)'
---other querry created distinct fvid, 1 fvid could order multiple products
-
-
-select city, country, (select distinct left(cast(fullvisitorid as varchar), 6) as fvid)
-from all_sessions
-where city not like 'not available%'
-and country not like 'not available%'
-and city not like '(not%)'
-group by fvid, city, country
+used the view to join on needed data
 
 select (select distinct trim(' ' from city)) as city, (select distinct trim(' ' from country)) as country, avg(csr.total_ordered)
 from salessku sks
@@ -53,7 +40,15 @@ group by city, country
 
 
 Answer:
-refer to avgprod_bycitycountry.csv
+SELECT 
+  city,
+  country,
+  (SUM(csr.total_ordered) / COUNT(DISTINCT city)) AS average_units_sold_per_city_country
+FROM salessku
+JOIN cleansr csr ON salessku.productsku = csr.productsku
+JOIN skcc skc ON salessku.productsku = skc.productsku
+GROUP BY city, country
+create view as sks, csrs
 
 
 
@@ -76,7 +71,7 @@ order by cit desc
 
 
 Answer:
-mountain view has higest t shirts ordered, out of the top 10, 7 are mountain view
+more coastal cities have higher outerwear or wear category placed
 
 
 
@@ -123,8 +118,7 @@ select city, country, sum((unit_price * total_ordered)) as totrev
 	group by skc.city, skc.country
 
 Answer:
-yes
-
+Poland Warsaw and Ireland were leading total_revenue outside of United States country.
 
 
 
